@@ -1,14 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 //Bring in the appropriate imports
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from "./App.jsx";
-import  Home  from "./pages/Home.jsx";
-import  About from "./pages/About.jsx";
-import  Error from "./pages/Error.jsx";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Error from "./pages/Error.jsx";
 import Contact from "./pages/Contact.jsx";
 import Project from "./pages/Project.jsx";
 import Resume from "./pages/Resume.jsx";
@@ -40,6 +40,7 @@ const router = createBrowserRouter([
         path: "/Resume",
         element: <Resume />,
       },
+      { path: "*", element: <Home /> },
     ],
   },
 ]);
@@ -49,4 +50,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
