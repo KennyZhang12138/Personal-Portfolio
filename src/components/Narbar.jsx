@@ -3,68 +3,44 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="nav bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-      <div className="nav-item col">
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? "nav-link active text-blue-500 dark:text-blue-300"
-              : "nav-link"
-          }
-          to="/"
-        > 
-          Home
-        </NavLink>
+    <nav className="bg-light navbar navbar-expand-lg shadow-sm p-4">
+      <div className="container-fluid d-sm-flex flex-column flex-lg-row justify-content-center justify-content-lg-between">
+        <div className="navbar-brand mb-4 mb-md-0 mb-lg-0">
+          <img
+            src=""
+            alt="logo"
+            width="30"
+            height="auto"
+            className="d-inline-block align-text-top"
+          />
+          <span className="ms-2 fw-bold">Kenny Zhang</span>
+        </div>
+
+        <div className="">
+          <NavLink to="/" className="link me-5">
+            Home
+          </NavLink>
+          <NavLink to="/about" className="link me-5">
+            About
+          </NavLink>
+
+          <NavLink to="/project" className="link me-5">
+            Projects
+          </NavLink>
+          <NavLink to="/resume" className="link me-5">
+            Resume
+          </NavLink>
+        </div>
+
+        <div>
+          <NavLink to="/contact" className="link">
+            <button className="mt-5 m-lg-0 btn btn-primary custom-btn fw-bold">
+              Contact me
+            </button>
+          </NavLink>
+        </div>
       </div>
-      <div className="nav-item col">
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? "nav-link active text-blue-500 dark:text-blue-300"
-              : "nav-link"
-          }
-          to="/About"
-        >
-          About
-        </NavLink>
-      </div>
-      <div className="nav-item col">
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? "nav-link active text-blue-500 dark:text-blue-300"
-              : "nav-link"
-          }
-          to="/Project"
-        >
-          Project
-        </NavLink>
-      </div>
-      <div className="nav-item col">
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? "nav-link active text-blue-500 dark:text-blue-300"
-              : "nav-link"
-          }
-          to="/Contact"
-        >
-          Contact
-        </NavLink>
-      </div>
-      <div className="nav-item col">
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? "nav-link active text-blue-500 dark:text-blue-300"
-              : "nav-link"
-          }
-          to="/Resume"
-        >
-          Resume
-        </NavLink>
-      </div>
-    </div>
+    </nav>
   );
 }
 
