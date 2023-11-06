@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.svg";
 
 function Navbar() {
   return (
@@ -7,9 +8,9 @@ function Navbar() {
       <div className="container-fluid d-sm-flex flex-column flex-lg-row justify-content-center justify-content-lg-between">
         <div className="navbar-brand mb-4 mb-md-0 mb-lg-0">
           <img
-            src=""
+            src={logo}
             alt="logo"
-            width="30"
+            width="80"
             height="auto"
             className="d-inline-block align-text-top"
           />

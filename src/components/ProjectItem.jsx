@@ -20,7 +20,7 @@ function ProjectItem({ project }) {
               <h5 className="card-title">{project.title}</h5>
               <p className="card-text">{project.description}</p>
               <div className="mt-5 align-text-bottom">
-                <p className="card-text">{project.date}</p>
+                <p className="card-text">{project.stack}</p>
                 <p className="card-text d-flex gap-4">
                   <a
                     href={project.url}

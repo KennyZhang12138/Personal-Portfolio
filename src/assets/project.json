@@ -1,38 +1,89 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
-    "date": "2023-09-20",
-    "description": "Description for Event 1",
-    "url" : "sdadw",
-    "github" : "adwda",
-    "image": "https://media.istockphoto.com/id/530685797/photo/group-of-business-people-standing-and-talking-in-office.jpg?s=1024x1024&w=is&k=20&c=XXvKc176iifipfvuRy6MlEcm2EFDDQHe9HQTofs9pHE="
+    "title": "Weather-Dashboard",
+    "stack": ["< Html />", "< Css />", "< Js />"],
+    "description": "Developed a weather prediction web app utilizing a weather API, providing real-time weather forecasts based on user input",
+    "url": "https://kennyzhang12138.github.io/Weather-Dashboard/",
+    "github": "https://github.com/KennyZhang12138/Weather-Dashboard",
+    "image": "https://github.com/KennyZhang12138/Weather-Dashboard/raw/main/assets/preview.png"
   },
   {
     "id": 2,
-    "title": "Event 2",
-    "date": "2023-09-25",
-    "description": "Description for Event 2",
-    "url": "",
-    "github": "",
-    "image": "https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_1280.jpg"
+    "title": "Quote-Generator",
+    "stack": ["< Html />", "< Css />", "< Js />"],
+    "description": "Built a web-based random quote generator using HTML, CSS, and JavaScript, displaying inspirational quotes with each click.",
+    "url": "https://r-warden.github.io/Quote-Generator/",
+    "github": "https://github.com/r-warden/Quote-Generator",
+    "image": "https://github.com/r-warden/Quote-Generator/raw/main/assets/images/image-4.png"
   },
   {
     "id": 3,
-    "title": "Event 3",
-    "date": "2023-09-15",
-    "description": "Description for Event 3",
-    "url": "",
-    "github": "",
-    "image": "https://cdn.pixabay.com/photo/2016/11/23/17/56/beach-1854076_640.jpg"
+    "title": "Venue-Viewer",
+    "stack": [
+      "< Html />",
+      "< Tailwind Css />",
+      "< Handlebars />",
+      "< NodeJs />",
+      "< Express />",
+      "< Mysql />"
+    ],
+    "description": "A responsive, full-stack web app. Enables easy discovery of concert venues via keyword searches, providing venue details, user reviews, and direct Ticketmaster ticket links.",
+    "url": "https://venue-viewer-team1-69164e361419.herokuapp.com/login",
+    "github": "https://github.com/ChaseOstien/Venue-Viewer",
+    "image": "https://github.com/ChaseOstien/Venue-Viewer/raw/main/assets/img/Homepage.png"
   },
   {
     "id": 4,
-    "title": "Event 4",
-    "date": "2023-09-25",
-    "description": "Description for Event 4",
-    "url": "",
-    "github": "",
-    "image": "https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_640.jpg"
+    "title": "Tech-Blog",
+    "stack": [
+      "< Html />",
+      "< Css />",
+      "< Handlebars />",
+      "< NodeJs />",
+      "< Express />",
+      "< Mysql />"
+    ],
+    "description": "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
+    "url": "https://tech-blog-kenny-d37bc065f6ce.herokuapp.com/",
+    "github": "https://github.com/KennyZhang12138/Tech-Blog",
+    "image": "https://github.com/KennyZhang12138/Tech-Blog/raw/main/img/ex2.png"
+  },
+  {
+    "id": 5,
+    "title": "Social-Network-Api",
+    "stack": ["< Javascript />", "< Express />", "< MongoDB />"],
+    "description": "A backend API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+    "url": "https://github.com/KennyZhang12138/social-network-api",
+    "github": "https://github.com/KennyZhang12138/social-network-api",
+    "image": "https://github.com/KennyZhang12138/E-commerce-Back-End/raw/main/images/ex1.png"
+  },
+  {
+    "id": 6,
+    "title": "Employee-Tracker",
+    "stack": [
+      "< Javascript />",
+      "< Express />",
+      "< Mysql />",
+      "< Sequelize />"
+    ],
+    "description": "A node.js application that uses user input from inquirer to populate an employee tracker database displaying members of a company.",
+    "url": "https://github.com/KennyZhang12138/Employee-Tracker",
+    "github": "https://github.com/KennyZhang12138/Employee-Tracker",
+    "image": "https://github.com/KennyZhang12138/Employee-Tracker/raw/main/images/ex1.png"
+  },
+  {
+    "id": 7,
+    "title": "E-commerce-Back-End",
+    "stack": [
+      "< Javascript />",
+      "< Express />",
+      "< Mysql />",
+      "< Sequelize />"
+    ],
+    "description": "A back-end application for an e-commerce site that uses the command line interface (CLI) and object-relational mapping for various methods of data manipulation, storage, and retrieval when using HTTP methods with a RESTUL API.",
+    "url": "https://github.com/KennyZhang12138/E-commerce-Back-End",
+    "github": "https://github.com/KennyZhang12138/E-commerce-Back-End",
+    "image": "https://github.com/KennyZhang12138/E-commerce-Back-End/raw/main/images/ex1.png"
   }
 ]
