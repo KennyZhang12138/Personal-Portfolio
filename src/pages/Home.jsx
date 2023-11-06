@@ -8,7 +8,7 @@ function Home() {
       <div className="container-fluid">
         <div className="d-sm-flex align-items-center justify-content-between">
           <div className="ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start">
-            <h1 className="">Hi, I am Kenny </h1>
+            <h1 className="">Hi, I am Kenny Zhang</h1>
             <h1 className="fw-bold custom-font">A Full stack Developer</h1>
             <p className="pt-5">Learn more about me : </p>
             <Link to="/about">

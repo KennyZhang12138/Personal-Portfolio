@@ -4,10 +4,14 @@ import ProjectItem from "../components/ProjectItem";
 
 function Project() {
   return (
-    <div>
-      <h1>Check out what I have done: </h1>
+    <div className="container-fluid bg-light p-5 min-vh-100">
+      <h1 className="row justify-content-center">
+        Check out what I have done:{" "}
+      </h1>
       {ProjectData.map((project) => (
-        <ProjectItem key={project.id} project={project} />
+        <div className="col-12 d-flex justify-content-center" key={project.id}>
+          <ProjectItem key={project.id} project={project} />
+        </div>
       ))}
     </div>
   );
