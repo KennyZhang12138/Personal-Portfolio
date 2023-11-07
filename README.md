@@ -63,11 +63,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Deploy
 
-Website: [Portfolio]()
+Website: [Portfolio](https://kenny-zhang-portfolio.netlify.app/)
 
 ## Questions
 
 For additional questions, contact me at the email provided below.
 
 - GitHub: [Portfolio](https://github.com/KennyZhang12138/Personal-Portfolio)
-- Netlify: [Portfolio](https://dashboard.heroku.com/apps/tech-blog-kenny)
+- Netlify: [Portfolio](https://app.netlify.com/sites/kenny-zhang-portfolio/overview)

@@ -7,7 +7,8 @@ function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(form.current);
+    
     emailjs
       .sendForm(
         "service_4apwbee",
