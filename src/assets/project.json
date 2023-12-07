@@ -85,5 +85,21 @@
     "url": "https://github.com/KennyZhang12138/E-commerce-Back-End",
     "github": "https://github.com/KennyZhang12138/E-commerce-Back-End",
     "image": "https://github.com/KennyZhang12138/E-commerce-Back-End/raw/main/images/ex1.png"
+  },
+  {
+    "id": 8,
+    "title": "Sabor Mexicano",
+    "stack": [
+      "< Javascript />",
+      "< Express />",
+      "< React />",
+      "< MongoDB />",
+      "< CSS />",
+      "< MERN Stack />"
+    ],
+    "description": "This full stack MERN application serves as a menu and ordering website for restaurants and food trucks. Our application specifically serves Sabor Mexicano, an Austin based, AI generated and designed food truck that serves authentic Mexican food. Our application follows the MERN stack, utilizing a MongoDB database, a GraphQL query layer, Express, React and Node.",
+    "url": "https://sabor-mexicano-aded3d6892cd.herokuapp.com",
+    "github": "https://github.com/JakeHowdeshell/react-menu",
+    "image": "https://github.com/JakeHowdeshell/react-menu/raw/main/client/src/assets/homepage1.png"
   }
 ]
